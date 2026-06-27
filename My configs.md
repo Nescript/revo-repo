@@ -1,0 +1,1 @@
+I just upload my config of nvim (I specially setup oil to access remote file through ssh), pi to github repo.
