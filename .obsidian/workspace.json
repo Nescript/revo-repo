@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pi.md",
+                "file": "Though of how to manage my knowledge vault.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pi"
+              "title": "Though of how to manage my knowledge vault"
             }
           }
         ]
@@ -196,11 +196,12 @@
   },
   "active": "9496b7c747c9a27e",
   "lastOpenFiles": [
-    "My configs.md",
+    "Home.md",
+    "Though of how to manage my knowledge vault.md",
     "pi.md",
+    "My configs.md",
     "Setup obsidian.md",
     "Archive.md",
-    "Home.md",
     "Home.md~",
     "Archive.md~",
     "未命名.base",
