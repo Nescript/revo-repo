@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Though of how to manage my knowledge vault.md",
+                "file": "Tag gramma on markdown.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Though of how to manage my knowledge vault"
+              "title": "Tag gramma on markdown"
             }
           }
         ]
@@ -196,12 +196,14 @@
   },
   "active": "9496b7c747c9a27e",
   "lastOpenFiles": [
-    "Home.md",
-    "Though of how to manage my knowledge vault.md",
     "pi.md",
     "My configs.md",
-    "Setup obsidian.md",
+    "Home.md",
     "Archive.md",
+    "Fun websites.md",
+    "Setup obsidian.md",
+    "Though of how to manage my knowledge vault.md",
+    "Tag gramma on markdown.md",
     "Home.md~",
     "Archive.md~",
     "未命名.base",

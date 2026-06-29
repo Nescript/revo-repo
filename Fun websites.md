@@ -1,0 +1,2 @@
+- [a blog from one of the neovim main developer](https://sink.io/)
+	- BTW, I have seen the [comic](http://xkcd.com/904/) he quoted on another website about keyboard configuration.
