@@ -2,6 +2,9 @@
 ## Files that i am working on
 - [ ] [[Though of how to manage my knowledge vault]]
 - [ ] [[Fun websites]]
+- [ ] [[Cloud]]
+- [ ] [[Learning roadmap]]
+- [ ] [[Review Discrete Mathematics]]
 ## long term project or planning to do
 - [ ] Compilers CS143
 	> I plan to continue this class but use the [PKU version](https://pku-minic.github.io/online-doc/#/) that write a compiler for C
