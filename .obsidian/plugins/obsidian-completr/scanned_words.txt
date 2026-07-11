@@ -11,6 +11,7 @@ help
 he
 hard
 harness
+homepage
 page
 powerful
 power
@@ -28,6 +29,7 @@ plan
 predecessor
 perform
 put
+plugins
 is
 in
 install
@@ -42,6 +44,7 @@ intro
 issue
 intuition
 important
+including
 gonna
 globally
 global
@@ -69,6 +72,7 @@ word
 while
 writing
 within
+we
 as
 am
 and
@@ -108,6 +112,7 @@ then
 things
 tried
 think
+totally
 do
 device
 dual
@@ -134,14 +139,17 @@ manngo
 markdown
 might
 meaning
+managed
 use
 unsuccessful
 update
 upload
 understand
 utilize
+under
 English
 EVER
+Exusiai
 entire
 everything
 electronic
@@ -156,6 +164,10 @@ not
 nvim
 note
 named
+<<<<<<< HEAD
+=======
+new
+>>>>>>> 93b93e4bd557ebee0b1483cffaaf47261d56a2ce
 nescript
 newer
 for
@@ -190,6 +202,8 @@ oil
 obsidian
 one
 Or
+Overview
+Operating
 system
 several
 some
@@ -209,6 +223,7 @@ show
 single
 syncing
 source
+section
 language
 long
 llm
@@ -218,6 +233,7 @@ look
 line
 lots
 Learn
+Linux
 bipedal
 body
 base
@@ -243,7 +259,11 @@ SJTU
 Files
 Figure
 FUCKING
+<<<<<<< HEAD
 FSM
+=======
+For
+>>>>>>> 93b93e4bd557ebee0b1483cffaaf47261d56a2ce
 vault
 RAG
 Related
@@ -260,6 +280,10 @@ jobs
 No
 Note
 Notes
+<<<<<<< HEAD
+=======
+Nexus
+>>>>>>> 93b93e4bd557ebee0b1483cffaaf47261d56a2ce
 BTW
 But
 It
@@ -281,4 +305,8 @@ your
 DON
 AGAIN
 Tip
+<<<<<<< HEAD
+=======
+This
+>>>>>>> 93b93e4bd557ebee0b1483cffaaf47261d56a2ce
 Transfer

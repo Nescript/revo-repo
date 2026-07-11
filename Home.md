@@ -4,6 +4,8 @@
 - [ ] [[Fun websites]]
 - [ ] [[Cloud]]
 - [ ] write [[A doc for bipedal wheel controller]]
+- [ ] [[Learning roadmap]]
+- [ ] [[Review Discrete Mathematics]]
 ## long term project or planning to do
 - [ ] Compilers CS143
 	> I plan to continue this class but use the [PKU version](https://pku-minic.github.io/online-doc/#/) that write a compiler for C
