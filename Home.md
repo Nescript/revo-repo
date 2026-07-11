@@ -2,6 +2,8 @@
 ## Files that i am working on
 - [ ] [[Though of how to manage my knowledge vault]]
 - [ ] [[Fun websites]]
+- [ ] [[Cloud]]
+- [ ] write [[A doc for bipedal wheel controller]]
 ## long term project or planning to do
 - [ ] Compilers CS143
 	> I plan to continue this class but use the [PKU version](https://pku-minic.github.io/online-doc/#/) that write a compiler for C
@@ -18,6 +20,6 @@
   > [SJTU](https://bbs.robomaster.com/wiki/4574/9430)
 
 - [ ] Transfer old notes to this vault
-	> nescript-obsidian, the newer one, use some kind of tag system to manage.
+	> [[nescript-obsidian]], the newer one, use some kind of tag system to manage.
 	> CS-Notes, the one I use folders to manage notes.
 

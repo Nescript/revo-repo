@@ -156,6 +156,8 @@ not
 nvim
 note
 named
+nescript
+newer
 for
 form
 folders
@@ -186,6 +188,7 @@ out
 old
 oil
 obsidian
+one
 Or
 system
 several
@@ -240,6 +243,7 @@ SJTU
 Files
 Figure
 FUCKING
+FSM
 vault
 RAG
 Related
@@ -247,6 +251,7 @@ Review
 knowledge
 know
 keyboard
+kind
 Use
 Unfortunately
 USE
@@ -254,6 +259,7 @@ just
 jobs
 No
 Note
+Notes
 BTW
 But
 It
@@ -275,3 +281,4 @@ your
 DON
 AGAIN
 Tip
+Transfer
