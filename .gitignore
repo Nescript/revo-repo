@@ -1,2 +1,8 @@
 .obsidian/plugins/obsidian-completr/scanned_words.txt
 .obsidian/workspace.json
+
+# Local Obsidian and agent runtime state
+.claudian/
+.obsidian/graph.json
+.obsidian/plugins/agent-client/
+.obsidian/plugins/realclaudian/data.json
