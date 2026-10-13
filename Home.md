@@ -4,3 +4,4 @@ ideas
 - [x] [[冥想]]
 
 - [ ] [[LQR]]
+- [ ] [[Human harness]]
