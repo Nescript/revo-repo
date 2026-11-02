@@ -1,0 +1,19 @@
+views:
+  - type: table
+    name: 表格
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: cards
+    name: 视图
+    filters:
+      and:
+        - file.ext != "jpeg"
+        - '!file.inFolder("01 RAW")'
+        - '!file.inFolder("02 Source notes")'
+        - '!file.inFolder("03 Wiki notes")'
+        - '!file.inFolder("04 MOC")'
+    order:
+      - file.name
+      - file.ctime
+    imageAspectRatio: 1

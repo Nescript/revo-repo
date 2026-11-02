@@ -1,0 +1,19 @@
+{
+  "id": "bd5402276",
+  "name": "marker 重跑提取图片",
+  "command": "cd \"/home/nesc/Documents/revo-repo/01 RAW\" && export LLAMA_CPP_BINARY=\"$HOME/.local/llama.cpp/llama-b10991/llama-server\" && /tmp/marker-env/bin/python -c \"\nfrom marker.converters.pdf import PdfConverter\nfrom marker.models import create_model_dict\nfrom marker.output import text_from_rendered\nconverter = PdfConverter(artifact_dict=create_model_dict())\nrendered = converter('串联腿机器人建模与控制开源文档.pdf')\ntext, _, images = text_from_rendered(rendered)\nopen('/tmp/leg_marker.md','w',encoding='utf-8').write(text)\nimport pathlib\nout = pathlib.Path('/tmp/leg_marker_images'); out.mkdir(exist_ok=True)\nfor k, img in images.items():\n    img.save(out / k)\nprint('DONE', len(text), len(images))\n\"",
+  "status": "completed",
+  "outputPath": ".pi/tasks/session-399380-399380/bd5402276.output",
+  "cwd": "/home/nesc/Documents/revo-repo",
+  "startTime": 1789533028879,
+  "endTime": 1789533869389,
+  "exitCode": 0,
+  "signal": null,
+  "pid": 717169,
+  "bytesWritten": 557,
+  "isAgent": false,
+  "notified": true,
+  "notifyOnCompletion": true,
+  "triggerOnCompletion": true,
+  "timeoutSeconds": 7200
+}

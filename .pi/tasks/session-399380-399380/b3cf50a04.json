@@ -1,0 +1,20 @@
+{
+  "id": "b3cf50a04",
+  "name": "marker 转换串联腿 PDF",
+  "command": "cd \"/home/nesc/Documents/revo-repo/01 RAW\" && uv run --with marker-pdf python -c \"\nfrom marker.converters.pdf import PdfConverter\nfrom marker.models import create_model_dict\nfrom marker.output import text_from_rendered\nconverter = PdfConverter(artifact_dict=create_model_dict())\nrendered = converter('串联腿机器人建模与控制开源文档.pdf')\ntext, _, images = text_from_rendered(rendered)\nopen('/tmp/leg_marker.md','w',encoding='utf-8').write(text)\nimport pathlib\npathlib.Path('/tmp/leg_marker_images').mkdir(exist_ok=True)\nfor k,v in images.items():\n    pathlib.Path('/tmp/leg_marker_images', k).write_bytes(v.getvalue() if hasattr(v,'getvalue') else v)\nprint('DONE', len(text))\n\"",
+  "status": "failed",
+  "outputPath": ".pi/tasks/session-399380-399380/b3cf50a04.output",
+  "cwd": "/home/nesc/Documents/revo-repo",
+  "startTime": 1789523223501,
+  "endTime": 1789523930187,
+  "exitCode": 1,
+  "signal": null,
+  "pid": 438669,
+  "bytesWritten": 9985,
+  "isAgent": false,
+  "error": "Exited with code 1",
+  "notified": true,
+  "notifyOnCompletion": true,
+  "triggerOnCompletion": true,
+  "timeoutSeconds": 3600
+}

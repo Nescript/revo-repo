@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Inference error: Request timed out.
+2026-09-16 12:27:51,568 [INFO] marker: Table processing stats: {'tables_pdftext': 8, 'tables_ocr': 1, 'tables_total': 9}
+2026-09-16 12:27:51,964 [INFO] marker: Overflow in columns: 0 >= 1 or rows: 1 >= 1
+2026-09-16 12:27:51,964 [INFO] marker: Overflow in columns: 0 >= 1 or rows: 2 >= 1
+2026-09-16 12:27:51,964 [INFO] marker: Overflow in columns: 0 >= 1 or rows: 3 >= 1
+Traceback (most recent call last):
+  File "<string>", line 13, in <module>
+  File "/home/nesc/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1035, in write_bytes
+    view = memoryview(data)
+           ^^^^^^^^^^^^^^^^
+TypeError: memoryview: a bytes-like object is required, not 'Image'
+Force-killed llamacpp (pid 610736)

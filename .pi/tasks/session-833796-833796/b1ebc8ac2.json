@@ -1,0 +1,20 @@
+{
+  "id": "b1ebc8ac2",
+  "name": "下载并校验安装包",
+  "command": "set -euo pipefail; asset=/tmp/EasyCLIProxyAPI-v0.2.67-Linux-amd64.tar.gz; curl -fL --retry 5 --retry-delay 2 --connect-timeout 30 -C - -o \"$asset\" https://github.com/router-for-me/EasyCLIProxyAPI/releases/download/v0.2.67/EasyCLIProxyAPI-v0.2.67-Linux-amd64.tar.gz; printf '%s  %s\\n' f8e915e2e234f84d3435f2311c2f7b2fbb1311443a93c29313bbfaec4e98c2b3 \"$asset\" | sha256sum -c -",
+  "description": "继续下载 Linux amd64 v0.2.67 安装包并核对 GitHub 发布的 SHA-256",
+  "status": "completed",
+  "outputPath": ".pi/tasks/session-833796-833796/b1ebc8ac2.output",
+  "cwd": "/home/nesc/Documents/revo-repo",
+  "startTime": 1788169236689,
+  "endTime": 1788169475823,
+  "exitCode": 0,
+  "signal": null,
+  "pid": 951598,
+  "bytesWritten": 16639,
+  "isAgent": false,
+  "notified": true,
+  "notifyOnCompletion": true,
+  "triggerOnCompletion": true,
+  "timeoutSeconds": 900
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ba25dad6c",
+  "name": "marker 转换轮腿手册 PDF",
+  "command": "cd \"/home/nesc/Documents/revo-repo/01 RAW\" && export LLAMA_CPP_BINARY=\"$HOME/.local/llama.cpp/llama-b10991/llama-server\" && /tmp/marker-env/bin/python -c \"\nfrom marker.converters.pdf import PdfConverter\nfrom marker.models import create_model_dict\nfrom marker.output import text_from_rendered\nconverter = PdfConverter(artifact_dict=create_model_dict())\nrendered = converter('轮腿机器人控制理论手册（未验证，可能有很多错误）(1).pdf')\ntext, _, images = text_from_rendered(rendered)\nopen('/tmp/wheel_leg_manual.md','w',encoding='utf-8').write(text)\nimport pathlib\nout = pathlib.Path('/tmp/wheel_leg_manual_images'); out.mkdir(exist_ok=True)\nfor k, img in images.items():\n    img.save(out / k)\nprint('DONE', len(text), len(images))\n\"",
+  "status": "completed",
+  "outputPath": ".pi/tasks/session-399380-399380/ba25dad6c.output",
+  "cwd": "/home/nesc/Documents/revo-repo",
+  "startTime": 1789534252528,
+  "endTime": 1789534495037,
+  "exitCode": 0,
+  "signal": null,
+  "pid": 766814,
+  "bytesWritten": 294,
+  "isAgent": false,
+  "notified": true,
+  "notifyOnCompletion": true,
+  "triggerOnCompletion": true,
+  "timeoutSeconds": 7200
+}

@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+  File "/home/nesc/.cache/uv/archive-v0/A1b9d6QLjK63q3go42GGh/lib/python3.12/site-packages/marker/converters/pdf.py", line 213, in __call__
+    document = self.build_document(temp_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nesc/.cache/uv/archive-v0/A1b9d6QLjK63q3go42GGh/lib/python3.12/site-packages/marker/converters/pdf.py", line 200, in build_document
+    document = DocumentBuilder(self.config)(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nesc/.cache/uv/archive-v0/A1b9d6QLjK63q3go42GGh/lib/python3.12/site-packages/marker/builders/document.py", line 64, in __call__
+    ocr_builder(document, provider)
+  File "/home/nesc/.cache/uv/archive-v0/A1b9d6QLjK63q3go42GGh/lib/python3.12/site-packages/marker/builders/ocr.py", line 99, in __call__
+    recognition_results = self.recognition_model(
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nesc/.cache/uv/archive-v0/A1b9d6QLjK63q3go42GGh/lib/python3.12/site-packages/surya/recognition/__init__.py", line 169, in __call__
+    return self._full_page_ocr(images, fallback_layout=layout_results)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nesc/.cache/uv/archive-v0/A1b9d6QLjK63q3go42GGh/lib/python3.12/site-packages/surya/recognition/__init__.py", line 347, in _full_page_ocr
+    out_by_page = {o.metadata["page_idx"]: o for o in manager.generate(batch)}
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nesc/.cache/uv/archive-v0/A1b9d6QLjK63q3go42GGh/lib/python3.12/site-packages/surya/inference/__init__.py", line 102, in generate
+    return self.backend.generate(batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nesc/.cache/uv/archive-v0/A1b9d6QLjK63q3go42GGh/lib/python3.12/site-packages/surya/inference/backends/llamacpp.py", line 207, in generate
+    self.start()
+  File "/home/nesc/.cache/uv/archive-v0/A1b9d6QLjK63q3go42GGh/lib/python3.12/site-packages/surya/inference/backends/llamacpp.py", line 103, in start
+    binary = _resolve_llama_server_binary()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nesc/.cache/uv/archive-v0/A1b9d6QLjK63q3go42GGh/lib/python3.12/site-packages/surya/inference/backends/llamacpp.py", line 40, in _resolve_llama_server_binary
+    raise SpawnError(
+surya.inference.backends.spawn.SpawnError: llama-server binary not found. Install with:
+  macOS:  brew install llama.cpp
+  Linux:  brew install llama.cpp  OR download from
+          https://github.com/ggml-org/llama.cpp/releases
+Or set LLAMA_CPP_BINARY in your env to the binary path.
