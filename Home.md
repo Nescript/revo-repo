@@ -5,3 +5,8 @@ ideas
 
 - [ ] [[LQR]]
 - [ ] [[Human harness]]
+
+- [ ] 数据结构实验
+- [ ] 斯坦福agent课
+- [ ] grok bot那个人的演讲
+- [ ] 测试新瞄

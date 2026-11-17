@@ -1,0 +1,417 @@
+{
+  "settings": {
+    "agentConfig": "isolated",
+    "model": "",
+    "thinking": "low",
+    "background": "",
+    "preferences": "",
+    "notesFolder": "",
+    "markGenerated": true,
+    "externalFolders": [],
+    "selectionMark": true,
+    "style": "icap",
+    "veilByDefault": true,
+    "maxConcurrent": 3,
+    "rememberContext": true,
+    "visuals": "auto",
+    "prepareDocuments": true,
+    "documentSummaries": false,
+    "guideCreated": true,
+    "mobileModel": "",
+    "mobileSecrets": {},
+    "mobileEndpoints": [],
+    "homeFolder": "ICAP",
+    "taskNotes": "off",
+    "activityBaseMade": false,
+    "activityViewAdded": false,
+    "taskNotesMigrated": false
+  },
+  "tasks": [
+    {
+      "id": "tbukfci125",
+      "kind": "note",
+      "title": "正在写概念笔记——“ICAP 框架”",
+      "notePath": "用 ICAP 学习.md",
+      "status": "completed",
+      "outcome": "已新建“ICAP 框架”",
+      "artifacts": [
+        {
+          "kind": "created",
+          "path": "03 Wiki notes/ICAP 框架.md",
+          "label": "ICAP 框架"
+        },
+        {
+          "kind": "edited",
+          "path": "用 ICAP 学习.md",
+          "label": "用 ICAP 学习"
+        }
+      ],
+      "error": null,
+      "createdAt": 1794465157469,
+      "endedAt": 1794465239391,
+      "blockId": "guide-agent",
+      "glossId": null,
+      "steps": [
+        {
+          "tool": "find",
+          "detail": "**/*ICAP*",
+          "at": 1794465161673,
+          "end": 1794465161707
+        },
+        {
+          "tool": "ask_learner",
+          "detail": "是否批准以下计划？ - 新增 `03 Wiki notes/ICAP 框架.md`：以定义开头，依据《用 ICAP 学习》说明四种投入方式、建构与互动的区别，附简短例子及返回原…",
+          "at": 1794465171563,
+          "end": 1794465178483
+        },
+        {
+          "tool": "create_note",
+          "detail": "ICAP 框架",
+          "at": 1794465199633,
+          "end": 1794465199669
+        },
+        {
+          "tool": "propose_edit",
+          "detail": "用 ICAP 学习.md",
+          "at": 1794465204626,
+          "end": 1794465234934
+        }
+      ],
+      "usage": {
+        "input": 7190,
+        "output": 860,
+        "cacheRead": 27520,
+        "cacheWrite": 0,
+        "cost": 0.025731999999999998,
+        "costKnown": true,
+        "billed": false
+      },
+      "model": "openai-codex/gpt-6.1-sol"
+    },
+    {
+      "id": "t342d419v1",
+      "kind": "recall",
+      "title": "正在检查你对“建构与互动的区别”的解释",
+      "notePath": "用 ICAP 学习.md",
+      "status": "completed",
+      "outcome": "对你“建构与互动的区别”的解释的反馈",
+      "artifacts": [
+        {
+          "kind": "feedback",
+          "path": "用 ICAP 学习.md",
+          "label": "用 ICAP 学习"
+        }
+      ],
+      "error": null,
+      "createdAt": 1794464888941,
+      "endedAt": 1794465145721,
+      "blockId": "guide-recall",
+      "glossId": null,
+      "steps": [
+        {
+          "tool": "ask_learner",
+          "detail": "两个人轮流背诵原文，与一个人提出新例子、另一个人指出例子的漏洞、前者据此修改解释相比，哪一种更符合 ICAP 的互动？为什么？",
+          "at": 1794464897661,
+          "end": 1794465107948
+        },
+        {
+          "tool": "ask_learner",
+          "detail": "一个人摘抄原文，和一个人用自己的话解释并举出书里没有的例子，哪一种是建构？判断依据是什么？",
+          "at": 1794465115783,
+          "end": 1794465138339
+        }
+      ],
+      "usage": {
+        "input": 12822,
+        "output": 331,
+        "cacheRead": 6144,
+        "cacheWrite": 0,
+        "cost": 0.029568399999999998,
+        "costKnown": true,
+        "billed": false
+      },
+      "model": "openai-codex/gpt-6.1-sol"
+    },
+    {
+      "id": "t0zrwmev71",
+      "kind": "quiz",
+      "title": "理解检验——“ICAP 的四种模式”",
+      "notePath": "用 ICAP 学习.md",
+      "status": "completed",
+      "outcome": "完成理解检验——“ICAP 的四种模式”",
+      "artifacts": [
+        {
+          "kind": "feedback",
+          "path": "用 ICAP 学习.md",
+          "label": "用 ICAP 学习"
+        }
+      ],
+      "error": null,
+      "createdAt": 1794464776621,
+      "endedAt": 1794464859040,
+      "blockId": "guide-quiz",
+      "glossId": null,
+      "steps": [
+        {
+          "tool": "ask_learner",
+          "detail": "小林把自己的例子发给 AI，AI 回复“完全正确”，小林就结束了。仅凭这段交流，能算 ICAP 中的“互动”吗？为什么？",
+          "at": 1794464783106,
+          "end": 1794464834803
+        },
+        {
+          "tool": "ask_learner",
+          "detail": "哪一种后续最能让这段交流成为 ICAP 中的“互动”？",
+          "at": 1794464843235,
+          "end": 1794464850098
+        }
+      ],
+      "usage": {
+        "input": 6467,
+        "output": 381,
+        "cacheRead": 12160,
+        "cacheWrite": 0,
+        "cost": 0.01796,
+        "costKnown": true,
+        "billed": false
+      },
+      "model": "openai-codex/gpt-6.1-sol"
+    },
+    {
+      "id": "t8spj7rfvd",
+      "kind": "explain",
+      "title": "正在解释“scaffolding”",
+      "notePath": "用 ICAP 学习.md",
+      "status": "completed",
+      "outcome": "已解释“scaffolding”",
+      "artifacts": [
+        {
+          "kind": "gloss",
+          "path": "用 ICAP 学习.md",
+          "label": "用 ICAP 学习"
+        }
+      ],
+      "error": null,
+      "createdAt": 1794464710105,
+      "endedAt": 1794464722144,
+      "blockId": null,
+      "glossId": "gl7v9jyfv4",
+      "usage": {
+        "input": 6925,
+        "output": 146,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "cost": 0.015309999999999999,
+        "costKnown": true,
+        "billed": false
+      },
+      "model": "openai-codex/gpt-6.1-sol"
+    },
+    {
+      "id": "t8hk0kn5lh",
+      "kind": "explain",
+      "title": "正在解释“scaffolding”",
+      "notePath": "用 ICAP 学习.md",
+      "status": "cancelled",
+      "outcome": "",
+      "artifacts": [],
+      "error": null,
+      "createdAt": 1794462503957,
+      "endedAt": 1794462503957,
+      "blockId": null,
+      "glossId": "g85f75x5l8",
+      "interrupted": true
+    }
+  ],
+  "blocks": [
+    {
+      "id": "guide-quiz",
+      "kind": "quiz",
+      "topic": "ICAP 的四种模式",
+      "notePath": "用 ICAP 学习.md",
+      "taskId": "t0zrwmev71",
+      "instructions": "Note: \"用 ICAP 学习\" (用 ICAP 学习.md)\n\nSection: 试一试 › ② 测验\n\nNote properties:\ntags: [learning, icap]\n\nLearner's stated background: none given. Do not assume a level; you may check related notes in the vault.\n\n<material>\n这是你的第一篇学习笔记，讲一个学习理论。读的时候，你会在原地用到插件的每一种交互。读完后，它就是一篇普通笔记：可以接着写，也可以删掉。\n\n## 四种投入方式\n\nICAP 框架（Chi & Wylie, 2014）把学习时的投入分成四种模式。从前到后，理解越来越深：\n\n- **被动（Passive）**：只接收，例如阅读、听讲。\n- **主动（Active）**：处理材料，例如划线、摘抄、重读。\n- **建构（Constructive）**：产生材料里没有的东西，例如用自己的话解释、举新例子。\n- **互动（Interactive）**：和一个会回应的伙伴一起建构，双方的贡献互相推进。\n\n所以，只给答案的助手会把你推回被动。好的导师提供 scaffolding，而不是讲解。\n\n## 试一试\n\n### ① 解释\n\n选中上一段的 *scaffolding*（双击；手机上长按），然后选 **解释**。解释出现在这一段下面。可以再要 **更深入**、**举个例子** 或 **说浅一点**。选 **留在笔记里** 保留它，选 **丢弃** 则笔记不变。\n\n### ② 测验\n\n选一个答案并提交。Agent 会回应你的选择：答错时，它用一个问题引导你自己找到答案。\n\n\n### ③ 回忆\n\n不往回看，写下你的回答。书写时笔记的其余部分会变模糊（按 Esc 取消）。Agent 指出遗漏并追问，但不替你改写。最后选 **整理成文**，你认可的版本和反馈会留在笔记里。\n\n\n### ④ 让 Agent 做事\n\n选 **开始**。Agent 会写一篇 ICAP 的概念笔记，并提议在这里加一个链接。只有你选 **应用修改**，这处修改才会写入。\n\n\n任务运行时，状态栏右侧有一个小圆点（手机上是侧边栏的按钮）。点它可以看到每个任务的状态和它改动过的文件。\n\n### ⑤ 请求\n\n其余的事，直接对 Agent 说：在命令面板（或右键菜单）运行 *在这里向 Agent 提问*，写下请求，按 <kbd>Ctrl</kbd> <kbd>↵</kbd>。\n\n- 输入 `[[` 或 `@` 从库里选笔记或 PDF，例如：`根据 [[某本书.pdf]] 为每一章写一篇笔记。`\n- 以 `/` 开头使用命令，例如 `/model`。\n- Agent 可以在回复里画图表、做白板或交互式图示。也可以直接要：`画一个能调学习率的梯度下降图`。\n- 完成后选 **保留记录**，块会变成普通的 Markdown。\n\n## 设置\n\n在 **设置 → ICAP Learning Agent** 中：\n\n- **登录…**：用已有的订阅账号（例如 Claude、ChatGPT）登录，或粘贴一个 API Key。手机上只能用 API Key。ICAP 内置 [Pi](https://pi.dev)，不需要另外安装。\n- **关于你**：写下你的背景和你喜欢怎样学。**这个库的约定** 会生成一篇 AGENTS.md，告诉 Agent 你在学什么、笔记怎么组织。\n- **高级 → Agent 配置**（电脑上）：选 *仅 ICAP（隔离）*，Agent 只能读这个库，不能运行 shell。\n\n## 之后\n\n- 在任何笔记里选中文字，选 **解释**。或在命令面板运行 *凭记忆复述（本节）*、*检验我对本节的理解*。\n- 保留下来的内容都是普通 Markdown，卸载插件后也能读。\n- 命令 *打开指南* 可以随时找回这篇笔记。\n</material>\n\nThe learner has just studied the note \"用 ICAP 学习\". Run a short understanding check inside their note:\n- Ask 2–4 questions, ONE at a time with ask_learner. Prefer questions that require reasoning or application over recall of wording.\n- Mix kinds where natural: \"single\" or \"multi\" for discriminating between close ideas (plausible distractors, each wrong option reflecting a real misconception), \"text\" for explaining why/how.\n- After each answer: on the NEXT ask_learner call, include feedback on that answer and a verdict. If the answer reveals a misconception, make the next question a targeted follow-up that lets them correct it, instead of moving on. In that case the feedback says what the chosen answer gets wrong and why, but does NOT reveal the correct answer — the follow-up is where they find it.\n- For multiple choice, don't reveal the answer before they respond.\n- Finish with a short final message (3–5 sentences): what they clearly understand, what to revisit (point to the part of the note), and one question to think about later. The last answer's feedback belongs in this final message.\n- The first question was written by the note's author and has already been asked and answered (see the transcript). Respond to that answer, then ask at most two more questions.",
+      "turns": [
+        {
+          "id": "uec828hde3",
+          "kind": "single",
+          "question": "小林读完一章后合上书，用自己的话写下这一章的主要观点，又举了一个书里没有的例子。按 ICAP，这属于哪种模式？",
+          "options": [
+            {
+              "id": "a",
+              "label": "被动——只是在读书"
+            },
+            {
+              "id": "b",
+              "label": "主动——在整理书里已有的内容"
+            },
+            {
+              "id": "c",
+              "label": "建构——产生了材料之外的解释和例子"
+            },
+            {
+              "id": "d",
+              "label": "互动——写作就是在和作者对话"
+            }
+          ],
+          "local": true,
+          "feedback": "你选了“建构——产生了材料之外的解释和例子”，抓住了关键：小林不只是搬运原文，还生成了自己的解释和新例子。",
+          "answer": {
+            "choices": [
+              "c"
+            ]
+          },
+          "draftChoices": [
+            "c"
+          ],
+          "verdict": "holds"
+        },
+        {
+          "id": "uhgdxpm07d",
+          "kind": "text",
+          "question": "小林把自己的例子发给 AI，AI 回复“完全正确”，小林就结束了。仅凭这段交流，能算 ICAP 中的“互动”吗？为什么？",
+          "revise": false,
+          "answer": {
+            "text": "我觉得不算，但我不知道为什么"
+          },
+          "feedback": "你判断“不算”，方向正确；但“有来有回”和“双方的贡献互相推进”有什么区别，还需要说清楚。",
+          "verdict": "partly"
+        },
+        {
+          "id": "uyrgbpvalh",
+          "kind": "single",
+          "question": "哪一种后续最能让这段交流成为 ICAP 中的“互动”？",
+          "options": [
+            {
+              "id": "a",
+              "label": "AI 再肯定一次，小林回复“谢谢”。"
+            },
+            {
+              "id": "b",
+              "label": "AI 指出例子中的一个矛盾，小林据此修改解释并提出疑问，AI 再针对疑问一起检验。"
+            },
+            {
+              "id": "c",
+              "label": "AI 给出完整解释，小林逐字抄进笔记。"
+            }
+          ],
+          "revise": false,
+          "answer": {
+            "choices": [
+              "b"
+            ]
+          },
+          "draftChoices": [
+            "b"
+          ]
+        }
+      ],
+      "phase": "completed",
+      "summary": "你选的这一项体现了互动的关键：双方根据对方的贡献，继续修改、追问和检验，而不只是交换消息。\n你已能识别“建构”，也能区分简单回应与共同推进理解。\n可以重看“四种投入方式”中的互动定义，试着用自己的话解释“互相推进”。\n留一个问题：下次 AI 直接给你答案时，你能怎样追问，让自己也参与建构？",
+      "error": null,
+      "settled": "open",
+      "createdAt": 1794461487627,
+      "authored": true
+    },
+    {
+      "id": "guide-recall",
+      "kind": "recall",
+      "topic": "建构与互动的区别",
+      "notePath": "用 ICAP 学习.md",
+      "taskId": "t342d419v1",
+      "instructions": "Note: \"用 ICAP 学习\" (用 ICAP 学习.md)\n\nSection: 试一试 › ③ 回忆\n\nNote properties:\ntags: [learning, icap]\n\nLearner's stated background: none given. Do not assume a level; you may check related notes in the vault.\n\n<reference_material_from_the_note>\n---\ntags: [learning, icap]\n---\n这是你的第一篇学习笔记，讲一个学习理论。读的时候，你会在原地用到插件的每一种交互。读完后，它就是一篇普通笔记：可以接着写，也可以删掉。\n\n## 四种投入方式\n\nICAP 框架（Chi & Wylie, 2014）把学习时的投入分成四种模式。从前到后，理解越来越深：\n\n- **被动（Passive）**：只接收，例如阅读、听讲。\n- **主动（Active）**：处理材料，例如划线、摘抄、重读。\n- **建构（Constructive）**：产生材料里没有的东西，例如用自己的话解释、举新例子。\n- **互动（Interactive）**：和一个会回应的伙伴一起建构，双方的贡献互相推进。\n\n所以，只给答案的助手会把你推回被动。好的导师提供 scaffolding，而不是讲解。\n\n## 试一试\n\n### ① 解释\n\n选中上一段的 *scaffolding*（双击；手机上长按），然后选 **解释**。解释出现在这一段下面。可以再要 **更深入**、**举个例子** 或 **说浅一点**。选 **留在笔记里** 保留它，选 **丢弃** 则笔记不变。\n\n### ② 测验\n\n选一个答案并提交。Agent 会回应你的选择：答错时，它用一个问题引导你自己找到答案。\n\n```icap-ask\nid: guide-quiz\nkind: quiz\nauthored: yes\ntopic: ICAP 的四种模式\n---\n小林读完一章后合上书，用自己的话写下这一章的主要观点，又举了一个书里没有的例子。按 ICAP，这属于哪种模式？\n- [ ] 被动——只是在读书\n- [ ] 主动——在整理书里已有的内容\n- [ ] 建构——产生了材料之外的解释和例子\n- [ ] 互动——写作就是在和作者对话\n```\n\n### ③ 回忆\n\n不往回看，写下你的回答。书写时笔记的其余部分会变模糊（按 Esc 取消）。Agent 指出遗漏并追问，但不替你改写。最后选 **整理成文**，你认可的版本和反馈会留在笔记里。\n\n```icap-ask\nid: guide-recall\nkind: recall\nauthored: yes\ntopic: 建构与互动的区别\n---\n不往回看，用自己的话解释：**建构**和**互动**有什么区别？为什么说互动不只是“轮流说话”？\n```\n\n### ④ 让 Agent 做事\n\n选 **开始**。Agent 会写一篇 ICAP 的概念笔记，并提议在这里加一个链接。只有你选 **应用修改**，这处修改才会写入。\n\n```icap-ask\nid: guide-agent\nkind: agent\nauthored: yes\ntopic: ICAP 框架\nstart: 开始\n---\n为 **ICAP 框架** 写一篇独立的概念笔记，并把它和这篇笔记连起来。\n```\n\n任务运行时，状态栏右侧有一个小圆点（手机上是侧边栏的按钮）。点它可以看到每个任务的状态和它改动过的文件。\n\n### ⑤ 请求\n\n其余的事，直接对 Agent 说：在命令面板（或右键菜单）运行 *在这里向 Agent 提问*，写下请求，按 <kbd>Ctrl</kbd> <kbd>↵</kbd>。\n\n- 输入 `[[` 或 `@` 从库里选笔记或 PDF，例如：`根据 [[某本书.pdf]] 为每一章写一篇笔记。`\n- 以 `/` 开头使用命令，例如 `/model`。\n- Agent 可以在回复里画图表、做白板或交互式图示。也可以直接要：`画一个能调学习率的梯度下降图`。\n- 完成后选 **保留记录**，块会变成普通的 Markdown。\n\n## 设置\n\n在 **设置 → ICAP Learning Agent** 中：\n\n- **登录…**：用已有的订阅账号（例如 Claude、ChatGPT）登录，或粘贴一个 API Key。手机上只能用 API Key。ICAP 内置 [Pi](https://pi.dev)，不需要另外安装。\n- **关于你**：写下你的背景和你喜欢怎样学。**这个库的约定** 会生成一篇 AGENTS.md，告诉 Agent 你在学什么、笔记怎么组织。\n- **高级 → Agent 配置**（电脑上）：选 *仅 ICAP（隔离）*，Agent 只能读这个库，不能运行 shell。\n\n## 之后\n\n- 在任何笔记里选中文字，选 **解释**。或在命令面板运行 *凭记忆复述（本节）*、*检验我对本节的理解*。\n- 保留下来的内容都是普通 Markdown，卸载插件后也能读。\n- 命令 *打开指南* 可以随时找回这篇笔记。\n</reference_material_from_the_note>\n\nThe learner wrote this FROM MEMORY, without looking at the note, as an explanation of \"建构与互动的区别\":\n<learner_explanation>\n建构是一个人完成的，互动是两个人完成的。\n</learner_explanation>\n\nCheck their understanding. Your job:\n1. Find real conceptual errors, important omissions and inaccuracies. Ignore style, wording and trivia.\n2. Explain WHY a misconception is a problem; give a hint or a counter-example rather than the corrected text.\n3. Never rewrite their explanation for them. They will correct it themselves.\n\nHow to respond:\n- If something important is wrong or missing: call ask_learner with kind \"text\", feedback, verdict (\"partly\" or \"reconsider\"), and ONE pointed follow-up question that makes them reason about the gap (a contrast, a counter-example, a \"what happens when…\"). Set revise: true instead if the best next step is to rewrite their explanation themselves.\n  Feedback is 2–4 sentences: name the specific claim that is wrong or missing and why it is a problem (what it would predict that is false). Do NOT state the correct explanation — leave that for the learner to construct; the follow-up question should lead them there.\n- Read their reply and continue the same way, at most 3 rounds in total. Acknowledge what they fixed.\n- When their understanding holds (or after the last round), end with a short final message: what now holds, anything still worth revisiting, in 2–4 sentences. No new question in the final message.\n- If it already holds at first read, skip questions and give the final message directly, mentioning one thing they could add to make it stronger.",
+      "turns": [
+        {
+          "id": "uii4nhwg9b",
+          "kind": "text",
+          "question": "不往回看，用自己的话解释：**建构**和**互动**有什么区别？为什么说互动不只是“轮流说话”？",
+          "placeholder": "它是什么、为什么重要、怎样运作…",
+          "local": true,
+          "feedback": "你注意到了参与者的区别，但只按人数判断，会把两个人轮流背诵原文也算成互动，也无法区分一个人摘抄和一个人提出新解释。人数不足以说明学习中发生了什么。",
+          "answer": {
+            "text": "建构是一个人完成的，互动是两个人完成的。"
+          },
+          "verdict": "partly"
+        },
+        {
+          "id": "ugxdo80gla",
+          "kind": "text",
+          "question": "两个人轮流背诵原文，与一个人提出新例子、另一个人指出例子的漏洞、前者据此修改解释相比，哪一种更符合 ICAP 的互动？为什么？",
+          "revise": false,
+          "answer": {
+            "text": "后者，因为两个人在讨论，互相推进彼此的理解"
+          },
+          "feedback": "你用“互相推进彼此的理解”补上了互动的关键，不再只看是否有两个人。还需要补清建构的特点：独自摘抄和独自提出新解释都是一个人完成的，但学习活动并不相同。",
+          "verdict": "partly"
+        },
+        {
+          "id": "urtl8yj4wa",
+          "kind": "text",
+          "question": "一个人摘抄原文，和一个人用自己的话解释并举出书里没有的例子，哪一种是建构？判断依据是什么？",
+          "revise": false,
+          "answer": {
+            "text": "后者，依据是他创建了原本材料没有的例子"
+          }
+        }
+      ],
+      "phase": "completed",
+      "summary": "你现在抓住了两个关键：建构看是否产生了原材料之外的内容，互动看双方是否互相推进理解，而不只是人数或轮流发言。你指出的“新例子”和“互相推进”分别说明了这两点；新例子是建构的一种方式，不是唯一方式。",
+      "error": null,
+      "settled": "open",
+      "createdAt": 1794462517775,
+      "authored": true
+    },
+    {
+      "id": "guide-agent",
+      "kind": "agent",
+      "topic": "ICAP 框架",
+      "notePath": "用 ICAP 学习.md",
+      "taskId": "tbukfci125",
+      "instructions": "",
+      "turns": [
+        {
+          "id": "u7yo4i8g9i",
+          "kind": "confirm",
+          "question": "为 **ICAP 框架** 写一篇独立的概念笔记，并把它和这篇笔记连起来。",
+          "confirmLabel": "开始",
+          "cancelLabel": "暂不",
+          "local": true,
+          "answer": {
+            "confirmed": true
+          }
+        },
+        {
+          "id": "u0qn02lbxp",
+          "kind": "confirm",
+          "question": "是否批准以下计划？\n\n- 新增 `03 Wiki notes/ICAP 框架.md`：以定义开头，依据《用 ICAP 学习》说明四种投入方式、建构与互动的区别，附简短例子及返回原笔记的链接；不加 frontmatter。\n- 提议修改 `用 ICAP 学习.md`：仅将首次出现的“ICAP 框架”改为链接，由你另行审核应用。\n- 不删除文件，不改动 Source notes。按本次“只创建一篇概念笔记”的要求，不另建 MOC。\n\n未发现同名概念笔记；无待确认的公式或拆分问题。当前工具无法检查 Git 分支和工作区状态，也不会进行 Git 操作。",
+          "revise": false,
+          "confirmLabel": "批准",
+          "cancelLabel": "暂不执行",
+          "answer": {
+            "confirmed": true
+          }
+        },
+        {
+          "id": "u2qtdi91g5",
+          "kind": "review",
+          "question": "仅将首次出现的 ICAP 框架链接到新建概念笔记。",
+          "revise": false,
+          "review": {
+            "path": "用 ICAP 学习.md",
+            "find": "ICAP 框架（Chi & Wylie, 2014）",
+            "replace": "[[ICAP 框架]]（Chi & Wylie, 2014）",
+            "summary": "仅将首次出现的 ICAP 框架链接到新建概念笔记。"
+          },
+          "answer": {
+            "confirmed": true
+          }
+        }
+      ],
+      "phase": "completed",
+      "summary": "已创建 [[ICAP 框架]]，并在 [[用 ICAP 学习]] 中添加链接；无其他修改或待确认事项。",
+      "error": null,
+      "settled": "open",
+      "createdAt": 1794462517782,
+      "authored": true
+    }
+  ]
+}

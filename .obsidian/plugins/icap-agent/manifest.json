@@ -1,0 +1,9 @@
+{
+  "id": "icap-agent",
+  "name": "ICAP Learning Agent",
+  "version": "1.2.2",
+  "minAppVersion": "1.11.4",
+  "description": "Learn inside your notes: contextual explanations, recall with feedback, and in-document interaction, powered by the Pi agent runtime.",
+  "author": "zhanzihao",
+  "isDesktopOnly": false
+}
